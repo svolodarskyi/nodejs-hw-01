@@ -10,7 +10,7 @@ const generateContacts = async (number) => {
     const allContatcs = [...existingContacts, ...fakeContacts];
     const result = await writeContacts(allContatcs);
     if (result === 1) {
-      console.log('Контакти згенеровані успішно');
+      console.log('5 контактів згенеровані та додані успішно');
     } else {
       console.log('Не вдалося зберегти згенеровані контакти');
     }
